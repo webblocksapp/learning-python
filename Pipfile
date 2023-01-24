@@ -5,8 +5,13 @@ name = "pypi"
 
 [packages]
 numpy = "*"
-
-[dev-packages]
+pandas = "*"
 
 [requires]
 python_version = "3.10"
+
+[pipenv]
+allow_prereleases = true
+
+[dev-packages]
+autopep8 = "*"
